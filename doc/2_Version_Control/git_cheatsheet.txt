@@ -1,0 +1,8 @@
+git commit //snapshot of projects current state, records changes in local repo
+git branch // creates a new branch, can pass argument that is name of new branch
+git checkout // switches to a different branch, argument is branch name
+git pull //downloads changes from remote repo and integrates them into current local branch
+git push //uploads local repo commits to remote repo
+git merge //switch to branch to merge into, then pull from remote repo to ensure up to date, merge branch into branch you wnat to merge into
+git rebase //integrate changes from one branch into another by moving branch history to sit on top of a new base commit. linear narrative
+git fetch //downloads commits and files etc from remote repo into local repo
