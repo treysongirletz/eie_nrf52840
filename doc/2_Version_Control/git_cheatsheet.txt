@@ -3,6 +3,13 @@ git branch // creates a new branch, can pass argument that is name of new branch
 git checkout // switches to a different branch, argument is branch name
 git pull //downloads changes from remote repo and integrates them into current local branch
 git push //uploads local repo commits to remote repo
+//-u <remote> <branch> :when first pushing a branch to GitHub this should be ran to tell GitHub to make a new branch on remote repo
+
 git merge //switch to branch to merge into, then pull from remote repo to ensure up to date, merge branch into branch you wnat to merge into
 git rebase //integrate changes from one branch into another by moving branch history to sit on top of a new base commit. linear narrative
 git fetch //downloads commits and files etc from remote repo into local repo
+git add //adds a file to be ready to be committed "staging area"
+git status //shows files that have been staged for a commit in green. any files not staged but changed are in red
+git log //shows git history tree and where each commit is in it
+git diff //shows the difference between the uncommitted changes and the current up to date file on the repo
+
